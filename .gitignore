@@ -22,3 +22,18 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Include Gradle Wrapper files for each project
+!*/gradle/wrapper/gradle-wrapper.jar
+!*/gradle/wrapper/gradle-wrapper.properties
+!*/gradlew
+!*/gradlew.bat
+
+# Ignore Gradle project-specific cache directory
+*/.gradle/
+
+# Ignore Gradle build output directory
+*/app/build/
+
+.DS_Store
+
